@@ -15,9 +15,11 @@ import UIKit
 import Cocoa
 #endif
 
+public class AppSceneDelegate {
+
 //extension AppDelegate {
   #if os(OSX)
-  func makeSplitViewWindow_Mac(theVC: AViewController) -> AWindow? {
+  public static func makeSplitViewWindow_Mac(theVC: AViewController) -> AWindow? {
     let win = AWindow(contentRect: NSMakeRect(0, 0, AScreen.main?.frame.width ?? 100, AScreen.main?.frame.height ?? 100), // for full height and width of screen
                       styleMask: [.miniaturizable, .closable, .resizable, .titled],
                       backing: .buffered,
@@ -32,7 +34,7 @@ import Cocoa
 
 #if os(iOS) || os(tvOS)
 
-  func makeSplitViewWindow_iOS(theScene:UIWindowScene, theVC: AViewController) -> AWindow {
+  public static func makeSplitViewWindow_iOS(theScene:UIWindowScene, theVC: AViewController) -> AWindow {
     let window = AWindow(frame: theScene.coordinateSpace.bounds)
     window.windowScene = theScene
     window.rootViewController = theVC
@@ -50,3 +52,4 @@ import Cocoa
 //  }
 //}
 #endif
+}

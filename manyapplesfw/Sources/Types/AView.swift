@@ -16,7 +16,7 @@ public typealias ViewType = NSView
 #if os(iOS) || os(tvOS) || os(macOS)
 open class AView: ViewType {
   
-  var myColor: AColor? {
+  public var myColor: AColor? {
     set {
       #if os(iOS) || os(tvOS)
       backgroundColor = newValue

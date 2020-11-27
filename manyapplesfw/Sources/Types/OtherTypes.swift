@@ -17,7 +17,6 @@ public typealias AWindow = UIWindow
 public typealias ATableViewCell = UITableViewCell
 public typealias ALayoutGuide = UILayoutGuide
 public typealias AImageView = UIImageView
-
 public typealias CellClassType = UITableViewCell.Type
 #endif
 
@@ -30,9 +29,8 @@ public typealias ATableViewDataSource = NSTableViewDataSource
 public typealias ATableViewDelegate = NSTableViewDelegate
 public typealias ASplitViewController = NSSplitViewController
 public typealias AWindow = NSWindow
+public typealias AImageView = NSImageView
+public typealias CellClassType = AView.Type
 @available(macOS 10.11, *)
 public typealias ALayoutGuide = NSLayoutGuide
-public typealias AImageView = NSImageView
-
-public typealias CellClassType = AView.Type
 #endif

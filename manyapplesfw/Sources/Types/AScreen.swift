@@ -6,8 +6,8 @@
 //  Original source: https://github.com/soffes/X
 
 #if os(iOS) || os(tvOS)
-    import UIKit.UIScreen
-    public typealias AScreen = UIScreen
+  import UIKit.UIScreen
+  public typealias AScreen = UIScreen
 #elseif os(macOS)
   import AppKit.NSScreen
   public typealias AScreen = NSScreen

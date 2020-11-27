@@ -43,7 +43,62 @@
 		A90A4583257174E000045CA5 /* AView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A4581257174E000045CA5 /* AView.swift */; };
 		A90A4587257174F800045CA5 /* AFontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A4586257174F800045CA5 /* AFontTextStyle.swift */; };
 		A90A4588257174F800045CA5 /* AFontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A4586257174F800045CA5 /* AFontTextStyle.swift */; };
+		A90A45962571783500045CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A45952571783500045CA5 /* AppDelegate.swift */; };
+		A90A45982571783500045CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A45972571783500045CA5 /* ViewController.swift */; };
+		A90A459A2571783800045CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90A45992571783800045CA5 /* Assets.xcassets */; };
+		A90A45A72571784E00045CA5 /* manyapplesfw_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90A45172571703C00045CA5 /* manyapplesfw_Mac.framework */; };
+		A90A45A82571784E00045CA5 /* manyapplesfw_Mac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A90A45172571703C00045CA5 /* manyapplesfw_Mac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A90A45B125717BB900045CA5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A45B025717BB900045CA5 /* main.swift */; };
+		A90A45BF2571801A00045CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A45BE2571801A00045CA5 /* AppDelegate.swift */; };
+		A90A45C12571801A00045CA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A45C02571801A00045CA5 /* SceneDelegate.swift */; };
+		A90A45C32571801A00045CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A45C22571801A00045CA5 /* ViewController.swift */; };
+		A90A45C82571801D00045CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90A45C72571801D00045CA5 /* Assets.xcassets */; };
+		A90A45CB2571801D00045CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90A45C92571801D00045CA5 /* LaunchScreen.storyboard */; };
+		A90A45D32571803E00045CA5 /* manyapplesfw_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90A45242571706600045CA5 /* manyapplesfw_iOS.framework */; };
+		A90A45D42571803E00045CA5 /* manyapplesfw_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A90A45242571706600045CA5 /* manyapplesfw_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A90A45A92571784E00045CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90A44C825716E5600045CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90A45162571703C00045CA5;
+			remoteInfo = manyapplesfw_Mac;
+		};
+		A90A45D52571803E00045CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90A44C825716E5600045CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90A45232571706600045CA5;
+			remoteInfo = manyapplesfw_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A90A45AB2571784E00045CA5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A90A45A82571784E00045CA5 /* manyapplesfw_Mac.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A45D72571803E00045CA5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A90A45D42571803E00045CA5 /* manyapplesfw_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A90A44D425716E5600045CA5 /* manyapplesfw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = manyapplesfw.h; sourceTree = "<group>"; };
@@ -71,6 +126,20 @@
 		A90A457C257174B900045CA5 /* CGRect+Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extra.swift"; sourceTree = "<group>"; };
 		A90A4581257174E000045CA5 /* AView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AView.swift; sourceTree = "<group>"; };
 		A90A4586257174F800045CA5 /* AFontTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFontTextStyle.swift; sourceTree = "<group>"; };
+		A90A45932571783500045CA5 /* ExampleMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90A45952571783500045CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A90A45972571783500045CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A90A45992571783800045CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A90A459E2571783800045CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90A459F2571783800045CA5 /* ExampleMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExampleMacApp.entitlements; sourceTree = "<group>"; };
+		A90A45B025717BB900045CA5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A90A45BC2571801900045CA5 /* ExampleiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90A45BE2571801A00045CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A90A45C02571801A00045CA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A90A45C22571801A00045CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A90A45C72571801D00045CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A90A45CA2571801D00045CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A90A45CC2571801D00045CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +157,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A90A45902571783500045CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A45A72571784E00045CA5 /* manyapplesfw_Mac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A45B92571801900045CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A45D32571803E00045CA5 /* manyapplesfw_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -98,7 +183,10 @@
 				A90A44D325716E5600045CA5 /* manyapplesfw */,
 				A90A45182571703C00045CA5 /* manyapplesfw_Mac */,
 				A90A45252571706600045CA5 /* manyapplesfw_iOS */,
+				A90A45942571783500045CA5 /* ExampleMacApp */,
+				A90A45BD2571801A00045CA5 /* ExampleiOSApp */,
 				A90A44D225716E5600045CA5 /* Products */,
+				A90A45A62571784E00045CA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +195,8 @@
 			children = (
 				A90A45172571703C00045CA5 /* manyapplesfw_Mac.framework */,
 				A90A45242571706600045CA5 /* manyapplesfw_iOS.framework */,
+				A90A45932571783500045CA5 /* ExampleMacApp.app */,
+				A90A45BC2571801900045CA5 /* ExampleiOSApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,6 +268,39 @@
 			path = Types;
 			sourceTree = "<group>";
 		};
+		A90A45942571783500045CA5 /* ExampleMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				A90A45B025717BB900045CA5 /* main.swift */,
+				A90A45952571783500045CA5 /* AppDelegate.swift */,
+				A90A45972571783500045CA5 /* ViewController.swift */,
+				A90A45992571783800045CA5 /* Assets.xcassets */,
+				A90A459E2571783800045CA5 /* Info.plist */,
+				A90A459F2571783800045CA5 /* ExampleMacApp.entitlements */,
+			);
+			path = ExampleMacApp;
+			sourceTree = "<group>";
+		};
+		A90A45A62571784E00045CA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A90A45BD2571801A00045CA5 /* ExampleiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				A90A45BE2571801A00045CA5 /* AppDelegate.swift */,
+				A90A45C02571801A00045CA5 /* SceneDelegate.swift */,
+				A90A45C22571801A00045CA5 /* ViewController.swift */,
+				A90A45C72571801D00045CA5 /* Assets.xcassets */,
+				A90A45C92571801D00045CA5 /* LaunchScreen.storyboard */,
+				A90A45CC2571801D00045CA5 /* Info.plist */,
+			);
+			path = ExampleiOSApp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -236,6 +359,44 @@
 			productReference = A90A45242571706600045CA5 /* manyapplesfw_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A90A45922571783500045CA5 /* ExampleMacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90A45A02571783800045CA5 /* Build configuration list for PBXNativeTarget "ExampleMacApp" */;
+			buildPhases = (
+				A90A458F2571783500045CA5 /* Sources */,
+				A90A45902571783500045CA5 /* Frameworks */,
+				A90A45912571783500045CA5 /* Resources */,
+				A90A45AB2571784E00045CA5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90A45AA2571784E00045CA5 /* PBXTargetDependency */,
+			);
+			name = ExampleMacApp;
+			productName = ExampleMacApp;
+			productReference = A90A45932571783500045CA5 /* ExampleMacApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A90A45BB2571801900045CA5 /* ExampleiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90A45CD2571801D00045CA5 /* Build configuration list for PBXNativeTarget "ExampleiOSApp" */;
+			buildPhases = (
+				A90A45B82571801900045CA5 /* Sources */,
+				A90A45B92571801900045CA5 /* Frameworks */,
+				A90A45BA2571801900045CA5 /* Resources */,
+				A90A45D72571803E00045CA5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90A45D62571803E00045CA5 /* PBXTargetDependency */,
+			);
+			name = ExampleiOSApp;
+			productName = ExampleiOSApp;
+			productReference = A90A45BC2571801900045CA5 /* ExampleiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -249,6 +410,12 @@
 						CreatedOnToolsVersion = 12.2;
 					};
 					A90A45232571706600045CA5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A90A45922571783500045CA5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A90A45BB2571801900045CA5 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -268,6 +435,8 @@
 			targets = (
 				A90A45162571703C00045CA5 /* manyapplesfw_Mac */,
 				A90A45232571706600045CA5 /* manyapplesfw_iOS */,
+				A90A45922571783500045CA5 /* ExampleMacApp */,
+				A90A45BB2571801900045CA5 /* ExampleiOSApp */,
 			);
 		};
 /* End PBXProject section */
@@ -284,6 +453,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A45912571783500045CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A459A2571783800045CA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A45BA2571801900045CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A45CB2571801D00045CA5 /* LaunchScreen.storyboard in Resources */,
+				A90A45C82571801D00045CA5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +524,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A90A458F2571783500045CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A45982571783500045CA5 /* ViewController.swift in Sources */,
+				A90A45962571783500045CA5 /* AppDelegate.swift in Sources */,
+				A90A45B125717BB900045CA5 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90A45B82571801900045CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A45C32571801A00045CA5 /* ViewController.swift in Sources */,
+				A90A45BF2571801A00045CA5 /* AppDelegate.swift in Sources */,
+				A90A45C12571801A00045CA5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A90A45AA2571784E00045CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90A45162571703C00045CA5 /* manyapplesfw_Mac */;
+			targetProxy = A90A45A92571784E00045CA5 /* PBXContainerItemProxy */;
+		};
+		A90A45D62571803E00045CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90A45232571706600045CA5 /* manyapplesfw_iOS */;
+			targetProxy = A90A45D52571803E00045CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A90A45C92571801D00045CA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90A45CA2571801D00045CA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A90A44E325716E5600045CA5 /* Debug */ = {
@@ -563,6 +793,91 @@
 			};
 			name = Release;
 		};
+		A90A45A12571783800045CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExampleMacApp/ExampleMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ExampleMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.ExampleMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A90A45A22571783800045CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExampleMacApp/ExampleMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ExampleMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.ExampleMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A90A45CE2571801D00045CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				INFOPLIST_FILE = ExampleiOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.ExampleiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90A45CF2571801D00045CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				INFOPLIST_FILE = ExampleiOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.ExampleiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -589,6 +904,24 @@
 			buildConfigurations = (
 				A90A452A2571706600045CA5 /* Debug */,
 				A90A452B2571706600045CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90A45A02571783800045CA5 /* Build configuration list for PBXNativeTarget "ExampleMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90A45A12571783800045CA5 /* Debug */,
+				A90A45A22571783800045CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90A45CD2571801D00045CA5 /* Build configuration list for PBXNativeTarget "ExampleiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90A45CE2571801D00045CA5 /* Debug */,
+				A90A45CF2571801D00045CA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
